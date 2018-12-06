@@ -70,7 +70,13 @@ aside ul{
 }
 
 aside img{
-	width:10%;
+	width:20%;
+	border:40px solid;
+	border:40px solid;
+	border-radius:60px;
+	border-image: url(border.svg);
+	border-image-repeat:stretch;
+	border-image-slice:350;
 }
 article{ 
 	padding:20px;
@@ -78,3 +84,16 @@ article{
 	line-height:2em;
 	text-align:center;
 }
+
+footer{
+	background-color:black;
+	text-align: center;
+  	color:white;
+	font-size:1em;
+	padding:1px;
+	}
+	footer a{
+		color:white;
+		text-decoration:none;
+		background-color:
+		
