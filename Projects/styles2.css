@@ -1,7 +1,7 @@
 @charset"utf-8";
 
 html{
-	background:url(dark_green.jpg) 100%/ cover;
+	background:url(../dark_green.jpg) 100%/ cover;
 }
 
 body{
@@ -10,12 +10,11 @@ body{
 	margin-right:10%;
 	margin-top:0px;
 	margin-bottom:0px;
-	min-height:920px;
 	box-shadow:inset 20px 0px 80px rgb(87,67,131),
 						inset -20px -0px 80px rgb(87,67,131);
 }
 header{
-	background: url(banner.png);
+	background: url(../banner.png);
 	height:200px;
 }
 
@@ -23,7 +22,6 @@ header h1{
 	color:gold;
 	font-size:3em;
 	padding:20px;
-	margin-bottom: 50px;
 }
 
 nav{
@@ -61,41 +59,34 @@ nav ul li a:hover{
 	background-color:black;
 }
 
-aside{
+table{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid black;
+	border-collapse:collapse;
+	background-color:rgba(40, 40, 40, .7);
+	color:white;
+	
+}
+td,th{
+border: 2px solid black;
+}
+tbody tr td img{
+	width:250px;
+}
+thead tr{
+	background-color:rgb(40, 40, 40);
+	height:50px;
+}
+tbody th{
+	background-color:rgb(60,60,60);
 	text-align:center;
 }
-
-aside ul{
-	display:none;
-}
-
-aside img{
-	width:20%;
-	border:40px solid;
-	border:40px solid;
-	border-radius:60px;
-	border-image: url(border.svg);
-	border-image-repeat:stretch;
-	border-image-slice:350;
-}
-article{ 
-	padding:20px;
-	font-size: 1.5em;
-	line-height:2em;
-	text-align:center;
-}
-
-footer{
+tfoot{
 	background-color:black;
-	text-align: center;
-  	color:white;
-	font-size:1em;
-	padding:1px;
-	}
-	footer a{
-		color:white;
-		text-decoration:none;
-		background-color:red;
-		border-radius:50px;
-		padding:5px;
-	}
+	text-align:center;
+	padding:10px;
+	margin:10px;
+}
+	
