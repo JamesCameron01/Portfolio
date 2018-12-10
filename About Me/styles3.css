@@ -24,9 +24,35 @@ header h1{
 	padding:20px;
 }
 
+aside{
+	padding-left:5%;
+	padding-right:10%;
+	padding-top:5%;
+	line-height:2em;
+}
+
+aside img{
+	width:20%;
+	float:left;
+	margin-right:10%;
+	margin-bottom:%;
+	border:40px solid;
+	border-radius:60px;
+	border-image: url(../border.svg);
+	border-image-repeat:stretch;
+	border-image-slice:350;
+}
+
+aside ul{
+	padding-left:20%;
+}
+
+article{
+	text-align:center;
+	padding:30px;
+}
 
 /*Header Navigation Style Section*/
-
 
 nav{
 	display:block;
@@ -62,43 +88,3 @@ nav ul li a{
 nav ul li a:hover{
 	background-color:black;
 }
-
-
-/*----Table Styles Section----*/
-
-
-table{
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
-	border: 2px solid black;
-	border-collapse:collapse;
-	background-color:rgba(40, 40, 40, .7);
-	color:white;
-	
-}
-td,th{
-border: 2px solid black;
-}
-tbody tr td img{
-	width:250px;
-}
-thead tr{
-	background-color:rgb(40, 40, 40);
-	height:50px;
-}
-tbody th{
-	background-color:rgb(60,60,60);
-	text-align:center;
-}
-tfoot{
-	background-color:black;
-	text-align:center;
-	padding:20px;
-	margin:10px;
-	font-size:1.3em;
-}
-.partner{
-	text-align:center;
-}
-	

@@ -25,8 +25,8 @@ header h1{
 }
 
 
-/*Header Navigation Style Section*/
 
+/*Header Navigation Style Section*/
 
 nav{
 	display:block;
@@ -62,43 +62,3 @@ nav ul li a{
 nav ul li a:hover{
 	background-color:black;
 }
-
-
-/*----Table Styles Section----*/
-
-
-table{
-	width:100%;
-	margin-left:auto;
-	margin-right:auto;
-	border: 2px solid black;
-	border-collapse:collapse;
-	background-color:rgba(40, 40, 40, .7);
-	color:white;
-	
-}
-td,th{
-border: 2px solid black;
-}
-tbody tr td img{
-	width:250px;
-}
-thead tr{
-	background-color:rgb(40, 40, 40);
-	height:50px;
-}
-tbody th{
-	background-color:rgb(60,60,60);
-	text-align:center;
-}
-tfoot{
-	background-color:black;
-	text-align:center;
-	padding:20px;
-	margin:10px;
-	font-size:1.3em;
-}
-.partner{
-	text-align:center;
-}
-	
