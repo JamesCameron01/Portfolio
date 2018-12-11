@@ -1,5 +1,6 @@
 @charset"utf-8";
 
+@media only screen and (min-width: 481px){
 html{
 	background:url(../dark_green.jpg) 100%/ cover;
 }
@@ -15,24 +16,28 @@ body{
 }
 header{
 	background: url(../banner.png);
-	height:200px;
+	height:20%;
 }
 
 header h1{
 	color:gold;
-	font-size:3em;
-	padding:20px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size:400%;
+	padding:4%;
 }
 
-
-
+article{
+	padding:1%;
+	font-size:200%;
+	line-height:200%;
+}
 /*Header Navigation Style Section*/
 
 nav{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	height:50px;
+	height:5.5%;
 }
 
 nav ul{
@@ -41,7 +46,6 @@ nav ul{
 	padding: 0;
 	overflow:hidden;
 	background-color:#333;
-
 }
 
 nav ul li{
@@ -61,4 +65,27 @@ nav ul li a{
 
 nav ul li a:hover{
 	background-color:black;
+}
+}
+@media only screen and (max-width: 480px){
+html{
+	width:100%;
+}
+
+body{
+	width:100%;
+}
+
+header{
+	background: url(../banner.png);
+	min-width:480px;
+	height:10%;
+}
+
+header h1{
+	color:gold;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size:150%;
+	padding:4%;
+}
 }
