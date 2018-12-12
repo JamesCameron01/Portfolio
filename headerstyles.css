@@ -1,21 +1,8 @@
 @charset"utf-8";
 
-@media only screen and (min-width: 481px){
-html{
-	background:url(../dark_green.jpg) 100%/ cover no-repeat;
-}
-
-body{
-	background: rgb(107, 88, 151);
-	margin-left:10%;
-	margin-right:10%;
-	margin-top:0px;
-	margin-bottom:0px;
-	box-shadow:inset 20px 0px 80px rgb(87,67,131),
-						inset -20px -0px 80px rgb(87,67,131);
-}
+/*Header Navigation Style Section*/
 header{
-	background: url(../banner.png);
+	background: url(banner.png);
 	height:20%;
 }
 
@@ -26,14 +13,6 @@ header h1{
 	padding:4%;
 	line-height:1em;
 }
-
-article{
-	padding:2%;
-	font-size:100%;
-	line-height:250%;
-}
-/*Header Navigation Style Section*/
-
 nav{
 	display:block;
 	margin-left:auto;
