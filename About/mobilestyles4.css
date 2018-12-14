@@ -52,8 +52,14 @@ background-color:#333;
 min-width:480px;
 line-height:200%;
 }
-nav ul li{
+nav ul{
+text-align:center;
+height:128px;
+}
+nav ul a li{
 	background-color:#333;
+	min-width:320px;
+	
 }
 nav ul li{
 	color:white;

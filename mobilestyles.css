@@ -4,7 +4,6 @@
 
 html{
 	width:100%;
-	max-width: 480px;
 }
 
 body{
@@ -16,8 +15,8 @@ body{
 
 header{
 	background: url(banner.png);
-	min-width:481px;
-	height:10%;
+	min-width:100%;
+	height:95.59px;
 }
 
 header h1{
@@ -30,6 +29,9 @@ article{
 	font-size:0.9em;
 	padding:2%;
 	line-height:200%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 footer{
@@ -39,7 +41,12 @@ aside{
 	text-align:center;
 }
 aside img{
-	width:20%;
+	width:40%;
+	border: 40px solid;
+    border-radius: 25%;
+    border-image: url(border.svg);
+    border-image-repeat: stretch;
+    border-image-slice: 450;
 }
 /*Navicon Styles Section*/
 .navicon img{
@@ -59,18 +66,28 @@ a.navicon:hover+ul, nav ul:hover {
 }
 nav{
 background-color:#333;
-min-width:480px;
-line-height:200%;
+width:100%;
+line-height:80%;
 }
-nav ul li{
+
+nav ul a li{
 	background-color:#333;
+	min-width:320px;
+	width:100%;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
 }
-nav ul li{
+nav ul a{
 	color:white;
-	min-width:480px;
+	margin-right:auto;
+	margin-left:auto;
 }
 .active{
 	background-color:rgb(0, 102, 0);
+}
+#right{
+	float:left;
 }
 }
 
