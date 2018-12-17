@@ -1,10 +1,6 @@
- @charset"utf-8";
- 
- @media only screen and (max-width: 480px){
+@charset"utf-8";
 
-html{
-	width:100%;
-}
+@media only screen and (max-width:480px){
 
 body{
 	width:100%;
@@ -14,7 +10,6 @@ body{
 }
 
 header{
-	background: url(banner.png);
 	min-width:100%;
 	height:95.59px;
 }
@@ -25,28 +20,41 @@ header h1{
 	font-size:150%;
 	padding:4%;
 }
-article{
-	font-size:0.9em;
-	padding:2%;
-	line-height:200%;
-	text-align:center;
+table tbody tr td a img{
+	width:100%;
+}
+table{
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
+	border: 2px solid black;
+	border-collapse:collapse;
+	background-color:rgba(40, 40, 40, .7);
+	color:white;
 }
-
-footer{
-	display:none;
+td,th{
+border: 2px solid black;
 }
-aside{
+tbody tr td img{
+	width:250px;
+}
+thead tr{
+	background-color:rgb(40, 40, 40);
+	height:50px;
+}
+tbody th{
+	background-color:rgb(60,60,60);
 	text-align:center;
 }
-aside img{
-	width:40%;
-	border: 40px solid;
-    border-radius: 25%;
-    border-image: url(border.svg);
-    border-image-repeat: stretch;
-    border-image-slice: 450;
+tfoot{
+	background-color:black;
+	text-align:center;
+	padding:20px;
+	margin:10px;
+	font-size:1.3em;
+}
+.partner{
+	text-align:center;
 }
 /*Navicon Styles Section*/
 .navicon img{
